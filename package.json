@@ -1,0 +1,23 @@
+{
+  "name": "apiPg",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/efraga79/apiPg.git",
+  "author": "ESTEVALDO FRAGA RIBEIRO <estevaldo@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "startdev": "nodemon node ./src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "nodemon": "^2.0.7",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.6.2",
+    "sequelize-cli": "^6.2.0"
+  }
+}
